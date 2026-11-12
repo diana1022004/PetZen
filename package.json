@@ -1,0 +1,9 @@
+{
+  "name": "petzen-app",
+  "version": "1.0.0",
+  "description": "PetZen: app de cuidado de mascotas y comedero inteligente",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "private": true
+}
