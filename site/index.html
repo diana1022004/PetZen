@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetZen — Tu perro come a tiempo, aunque tú no estés</title>
+<meta name="description" content="PetZen integra en una sola app el cuidado de tu mascota y un comedero inteligente conectado por WiFi: horarios, citas veterinarias, tiendas aliadas y más.">
+<meta name="theme-color" content="#0B3162">
+<meta property="og:title" content="PetZen — Cuidado inteligente para tu mascota">
+<meta property="og:description" content="Una sola app + comedero inteligente WiFi. Programa comidas, agenda citas y cuida a tu peludito desde el celular.">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<script>
+  /* Si la app vive en OTRA dirección (por ejemplo https://petzen-app.onrender.com/app/), escríbela aquí.
+     Si la dejas vacía, la página usa automáticamente  <esta misma dirección>/app/  */
+  window.PETZEN_APP_URL = '';
+</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap navin">
+    <a href="#inicio" class="brand"><img src="img/logo.png" alt="PetZen" class="logo-dark"><img src="img/logo-white.png" alt="PetZen" class="logo-light"></a>
+    <nav class="links" id="links">
+      <a href="#problema">El problema</a><a href="#funciones">Funciones</a><a href="#como">Cómo funciona</a><a href="#comedero">Comedero</a><a href="#precios">Precios</a><a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn gold js-app" href="/app/">Abrir la app</a>
+    <button class="burger" id="burger" aria-label="Menú">☰</button>
+  </div>
+</header>
+
+<main id="inicio">
+<!-- ============ HERO -->
+<section class="hero">
+  <div class="floaties" aria-hidden="true"><i>🐾</i><i>🦴</i><i>🐾</i><i>🐕</i><i>🐾</i><i>🐈</i></div>
+  <div class="wrap herogrid">
+    <div class="herotxt">
+      <span class="eyebrow">App + comedero inteligente · Cali, Colombia</span>
+      <h1>Tu perro come a tiempo, <em>aunque tú no estés.</em></h1>
+      <p class="lead">Todo el cuidado de tu mascota en una sola app: programa sus comidas, agenda citas con el veterinario, compra lo que necesita y controla un comedero conectado por WiFi.</p>
+      <div class="cta">
+        <a class="btn gold big js-app" href="/app/">Probar la app →</a>
+        <a class="btn ghost big" href="#como">Ver cómo funciona</a>
+      </div>
+      <ul class="ticks"><li>Registro gratuito</li><li>Sin comedero también funciona</li><li>Tus datos, protegidos</li></ul>
+    </div>
+    <div class="herophoto">
+      <div class="photo"></div>
+      <div class="chip c1"><b>⏰ 7:00 a. m.</b><span>Próxima comida</span></div>
+      <div class="chip c2"><b>🍽️ 146 g</b><span>Dispensado ✔</span></div>
+      <div class="chip c3"><b>🩺 Cita agendada</b><span>Viernes · 9:00 a. m.</span></div>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 40 Q360 100 720 50 T1440 40 V90 H0Z" fill="#F4EFE3"/></svg>
+</section>
+
+<!-- ============ PROBLEMA -->
+<section id="problema" class="sec">
+  <div class="wrap">
+    <div class="head reveal"><span class="eyebrow dark">El problema</span><h2>Quieres cuidarlo bien, pero el día no alcanza</h2></div>
+    <div class="grid3">
+      <article class="card reveal"><div class="ico">⏱️</div><h3>Horarios que no cuadran</h3><p>Entre el trabajo y los trayectos, cumplir la hora de comida todos los días se vuelve difícil.</p></article>
+      <article class="card reveal"><div class="ico">🗂️</div><h3>Información regada</h3><p>Vacunas en una libreta, citas en el chat y notas en el celular: nada está en un solo lugar.</p></article>
+      <article class="card reveal"><div class="ico">🤔</div><h3>¿Estará comiendo bien?</h3><p>Sin una guía clara es difícil saber cuánto necesita según su edad, peso y actividad.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FUNCIONES -->
+<section id="funciones" class="sec alt">
+  <div class="wrap">
+    <div class="head reveal"><span class="eyebrow dark">Una sola app</span><h2>Todo lo que tu mascota necesita, en un solo lugar</h2></div>
+    <div class="grid3">
+      <article class="card feat reveal"><div class="ico">🍽️</div><h3>Comedero inteligente WiFi</h3><p>Dispensa desde la app o con horarios programados, y mira el historial de cada comida.</p></article>
+      <article class="card feat reveal"><div class="ico">🥣</div><h3>Nutrición personalizada</h3><p>Ración diaria sugerida según edad, peso y actividad. Una guía de apoyo, no un reemplazo del veterinario.</p></article>
+      <article class="card feat reveal"><div class="ico">📋</div><h3>Ficha y carnet digital</h3><p>Datos de tu mascota, historia clínica y carnet de vacunas siempre a la mano.</p></article>
+      <article class="card feat reveal"><div class="ico">📅</div><h3>Citas con día y hora</h3><p>Agenda veterinario o spa, paga y recibe la confirmación. Comparte la ficha solo si tú lo autorizas.</p></article>
+      <article class="card feat reveal"><div class="ico">🛍️</div><h3>Tiendas y servicios aliados</h3><p>Comida, ropa, juguetes y servicios con entrega en la dirección, día y franja que elijas.</p></article>
+      <article class="card feat reveal"><div class="ico">🚨</div><h3>Guía de urgencias</h3><p>Aprende a reconocer una urgencia y llama con un toque a tu veterinaria 24/7.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO FUNCIONA -->
+<section id="como" class="sec">
+  <div class="wrap">
+    <div class="head reveal"><span class="eyebrow dark">Cómo funciona</span><h2>Empieza en tres pasos</h2></div>
+    <div class="steps">
+      <div class="step reveal"><i>1</i><h3>Crea tu cuenta y registra a tu peludito</h3><p>Elige su raza (o criollo), cuéntanos cómo es y sube su carnet si quieres.</p></div>
+      <div class="step reveal"><i>2</i><h3>Programa sus comidas</h3><p>Te sugerimos la ración y los horarios. Tú los ajustas con un toque.</p></div>
+      <div class="step reveal"><i>3</i><h3>Relájate y sigue su día</h3><p>Recibe recordatorios, agenda citas y mira cómo va, desde donde estés.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMEDERO -->
+<section id="comedero" class="sec navy">
+  <div class="wrap two">
+    <div class="reveal">
+      <span class="eyebrow">El comedero</span>
+      <h2>Un comedero que habla con tu app</h2>
+      <p class="lead">Tu celular le envía la orden por WiFi y el comedero la cumple: gira un motor, cae la porción y queda registrada en el historial.</p>
+      <ul class="ticks light"><li>Porción exacta en gramos</li><li>Estado en línea y nivel de alimento</li><li>Horarios automáticos en hora de Colombia</li><li>Comedero virtual para probar desde el navegador</li></ul>
+    </div>
+    <div class="feeder reveal" aria-hidden="true">
+      <div class="body"><div class="scr">petzen · WiFi</div><div class="led"></div><div class="paw">🐾</div><i class="k"></i><i class="k"></i><i class="k"></i></div>
+      <div class="bowl"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRECIOS -->
+<section id="precios" class="sec alt">
+  <div class="wrap">
+    <div class="head reveal"><span class="eyebrow dark">Precios de referencia</span><h2>Elige cómo empezar</h2></div>
+    <div class="grid3 prices">
+      <article class="card price reveal"><h3>App PetZen</h3><div class="amt">Gratis</div><p>Mascotas, rutinas, recordatorios, ficha y tiendas aliadas.</p><a class="btn ghost js-app" href="/app/">Crear cuenta</a></article>
+      <article class="card price pop reveal"><span class="flag">Más completo</span><h3>Comedero inteligente</h3><div class="amt">$400.000 <small>COP · pago único</small></div><p>Dispensador WiFi controlado desde la app.</p><a class="btn gold" href="#contacto">Lo quiero</a></article>
+      <article class="card price reveal"><h3>Suscripción Premium</h3><div class="amt">$9.900 – $14.900 <small>COP / mes</small></div><p>Nutrición personalizada y reportes más completos.</p><a class="btn ghost" href="#contacto">Más información</a></article>
+    </div>
+    <p class="fine reveal">Precios de referencia en pesos colombianos, sujetos a cambio. PetZen es una herramienta de apoyo y no reemplaza al veterinario.</p>
+  </div>
+</section>
+
+<!-- ============ QR / APP -->
+<section id="abrir" class="sec">
+  <div class="wrap qrbox reveal">
+    <div>
+      <span class="eyebrow dark">Pruébala ahora</span>
+      <h2>Escanea el código y abre la app</h2>
+      <p class="lead dark">Apunta la cámara de tu celular al código QR. Se abre PetZen y puedes crear tu cuenta en un minuto.</p>
+      <a class="btn gold big js-app" href="/app/">Abrir la app →</a>
+      <p class="fine" id="qrurl"></p>
+    </div>
+    <div class="qrcard"><canvas id="qr" width="260" height="260" aria-label="Código QR para abrir la app PetZen"></canvas><span>📱 Escanéame</span></div>
+  </div>
+</section>
+
+<!-- ============ FAQ -->
+<section class="sec alt" id="faq">
+  <div class="wrap narrow">
+    <div class="head reveal"><span class="eyebrow dark">Preguntas frecuentes</span><h2>Resolvemos tus dudas</h2></div>
+    <details class="reveal"><summary>¿Necesito el comedero para usar la app?</summary><p>No. Puedes usar la app para rutinas, recordatorios, ficha, citas y tiendas. El comedero es para dispensar comida de forma remota.</p></details>
+    <details class="reveal"><summary>¿PetZen reemplaza al veterinario?</summary><p>No. Las recomendaciones son estimaciones de apoyo. Ante cualquier síntoma o duda sobre la salud de tu mascota, consulta a un profesional. Si es una urgencia, llama a una veterinaria 24/7.</p></details>
+    <details class="reveal"><summary>¿Qué pasa con mis datos?</summary><p>Los tratamos conforme a la Ley 1581 de 2012: puedes consultarlos, descargarlos en Word o Excel y eliminarlos cuando quieras. Los documentos de salud solo se comparten con un aliado si lo autorizas.</p></details>
+    <details class="reveal"><summary>¿Funciona para gatos?</summary><p>Sí. Puedes registrar perros y gatos, con lista de razas o criollo.</p></details>
+  </div>
+</section>
+
+<!-- ============ CONTACTO -->
+<section id="contacto" class="sec navy">
+  <div class="wrap two">
+    <div class="reveal">
+      <span class="eyebrow">Contáctanos hoy</span>
+      <h2>Empieza a cuidar mejor a tu mejor amigo</h2>
+      <p class="lead">Escríbenos y te contamos cómo conseguir tu comedero PetZen.</p>
+      <a class="btn gold big" href="https://wa.me/573234587897?text=Hola%20PetZen%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener">💬 Escribir por WhatsApp</a>
+    </div>
+    <ul class="contact reveal">
+      <li><i>📞</i><span>Teléfono / WhatsApp<b>323 458 7897</b></span></li>
+      <li><i>✉️</i><span>Correo<b><a href="mailto:PetZenOficial@gmail.com">PetZenOficial@gmail.com</a></b></span></li>
+      <li><i>🌐</i><span>Web<b>www.petzen.com</b></span></li>
+      <li><i>📍</i><span>Ubicación<b>Cali, Colombia</b></span></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <img src="img/logo-white.png" alt="PetZen" height="34">
+  <p>© PetZen · Cali, Colombia. Proyecto académico — Universidad de San Buenaventura Cali.</p>
+  <p class="fine">Las recomendaciones de la app no reemplazan al veterinario.</p>
+</div></footer>
+
+<script src="js/qr.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

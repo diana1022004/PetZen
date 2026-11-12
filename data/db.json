@@ -1,0 +1,277 @@
+{
+  "users": [
+    {
+      "id": "ba8ec2f7fc803bbb",
+      "name": "diana catalina",
+      "email": "dcrr1022@gmail.com",
+      "pass": "d3f4168333f609143e15310d0435cf2e:c91e2e5c6c65ff1c0a4c0ea374fd3dc45c6be4ddb5a68ff7b353eb3d3113672d78f949e28644e0bf4c33f231c0c7cf9839452c5d447c77e366e5ef7eabdc654f",
+      "deviceKey": "pz_7b45f094dc88a594",
+      "createdAt": "2026-11-12T05:12:28.856Z",
+      "consentAt": "2026-11-12T05:12:28.856Z",
+      "lastSeen": "2026-11-12T05:20:41.441Z",
+      "foodLevel": 72,
+      "firmware": "virtual-1.0"
+    }
+  ],
+  "pets": [
+    {
+      "id": "97d6dec6688db5c7",
+      "userId": "ba8ec2f7fc803bbb",
+      "name": "Lola",
+      "species": "perro",
+      "breed": "Bulldog francés",
+      "sex": "hembra",
+      "birthDate": "2022-07-03",
+      "ageYears": 4,
+      "weightKg": 7.5,
+      "size": "mediano",
+      "coatColor": "negro",
+      "coatType": "corto",
+      "temperament": "tranquilo",
+      "allergies": [],
+      "microchip": false,
+      "neutered": false,
+      "activity": "media",
+      "clinicalSummary": "",
+      "features": "Pelaje mono rayado, ojos cafes, carita tierna.",
+      "allergyNotes": "",
+      "conditions": "Inconsistencias en el popo",
+      "medications": "",
+      "vetNotes": "",
+      "microchipNumber": "",
+      "lastVaccine": "2026-11-11",
+      "lastDeworm": "2026-02-12",
+      "foodBrand": "Alimento BARF",
+      "vetName": "San Anton",
+      "vetPhone": "3187665901",
+      "notes": "",
+      "createdAt": "2026-11-12T05:15:58.220Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "648e7acfc76f273b",
+      "userId": "ba8ec2f7fc803bbb",
+      "petId": "97d6dec6688db5c7",
+      "time": "07:30",
+      "grams": 82,
+      "enabled": true,
+      "lastRun": null
+    },
+    {
+      "id": "f49b38aa5c8be306",
+      "userId": "ba8ec2f7fc803bbb",
+      "petId": "97d6dec6688db5c7",
+      "time": "18:30",
+      "grams": 82,
+      "enabled": true,
+      "lastRun": null
+    },
+    {
+      "id": "eab11af3fabcd5bd",
+      "userId": "ba8ec2f7fc803bbb",
+      "petId": "97d6dec6688db5c7",
+      "time": "00:22",
+      "grams": 82,
+      "enabled": true,
+      "lastRun": "2026-11-12"
+    }
+  ],
+  "logs": [
+    {
+      "id": "bd7f6259edded3b8",
+      "userId": "ba8ec2f7fc803bbb",
+      "petId": "97d6dec6688db5c7",
+      "petName": "Lola",
+      "grams": 54,
+      "source": "manual",
+      "status": "dispensado",
+      "at": "2026-11-12T05:16:27.244Z",
+      "doneAt": "2026-11-12T05:16:34.231Z"
+    },
+    {
+      "id": "057a1d94142cc428",
+      "userId": "ba8ec2f7fc803bbb",
+      "petId": "97d6dec6688db5c7",
+      "petName": "Lola",
+      "grams": 54,
+      "source": "manual",
+      "status": "dispensado",
+      "at": "2026-11-12T05:16:37.407Z",
+      "doneAt": "2026-11-12T05:16:42.794Z"
+    },
+    {
+      "id": "1ac0d280a3dc1c7d",
+      "userId": "ba8ec2f7fc803bbb",
+      "petId": "97d6dec6688db5c7",
+      "petName": "Lola",
+      "grams": 82,
+      "source": "horario",
+      "status": "pendiente",
+      "at": "2026-11-12T05:22:18.771Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "92697097cc271975",
+      "userId": "ba8ec2f7fc803bbb",
+      "apptId": "ee9ef1df8da2adf0",
+      "petId": "97d6dec6688db5c7",
+      "petName": "Lola",
+      "title": "Cita: Ecografía abdominal (Clínica Veterinaria Patitas)",
+      "kind": "cita",
+      "when": "2026-11-20T10:30:00-05:00",
+      "done": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "58c312c8eed6a868",
+      "code": "PED-440765",
+      "userId": "ba8ec2f7fc803bbb",
+      "storeId": "petzen",
+      "storeName": "PetZen Oficial",
+      "items": [
+        {
+          "id": "suscripcion-anual",
+          "name": "Suscripción PetZen Premium (12 meses)",
+          "price": 99000,
+          "qty": 1,
+          "size": ""
+        }
+      ],
+      "subtotal": 99000,
+      "discount": 0,
+      "coupon": "",
+      "total": 99000,
+      "commission": 9900,
+      "delivery": {
+        "address": "Calle 72a #4-35",
+        "city": "Cali",
+        "ref": "valle",
+        "phone": "3234587897",
+        "date": "2026-11-13",
+        "slot": "8:00 a. m. – 12:00 m.",
+        "notes": ""
+      },
+      "payMethod": "contraentrega",
+      "payStatus": "por pagar",
+      "status": "confirmado",
+      "at": "2026-11-12T05:19:59.028Z"
+    }
+  ],
+  "commands": [
+    {
+      "id": "5209f60edde0c849",
+      "userId": "ba8ec2f7fc803bbb",
+      "logId": "bd7f6259edded3b8",
+      "grams": 54,
+      "status": "completada",
+      "createdAt": "2026-11-12T05:16:27.244Z"
+    },
+    {
+      "id": "45e3d230391dbdb4",
+      "userId": "ba8ec2f7fc803bbb",
+      "logId": "057a1d94142cc428",
+      "grams": 54,
+      "status": "completada",
+      "createdAt": "2026-11-12T05:16:37.408Z"
+    },
+    {
+      "id": "16410ec5f7f64cb9",
+      "userId": "ba8ec2f7fc803bbb",
+      "logId": "1ac0d280a3dc1c7d",
+      "grams": 82,
+      "status": "pendiente",
+      "createdAt": "2026-11-12T05:22:18.771Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "ee9ef1df8da2adf0",
+      "code": "CITA-85C2E7",
+      "userId": "ba8ec2f7fc803bbb",
+      "storeId": "clinica",
+      "storeName": "Clínica Veterinaria Patitas",
+      "serviceId": "ecografia",
+      "serviceName": "Ecografía abdominal",
+      "petId": "97d6dec6688db5c7",
+      "petName": "Lola",
+      "date": "2026-11-20",
+      "time": "10:30",
+      "reason": "",
+      "sharedDocs": [],
+      "total": 90000,
+      "payMethod": "tarjeta",
+      "payStatus": "pagado",
+      "status": "agendada",
+      "at": "2026-11-12T05:17:46.015Z"
+    }
+  ],
+  "docs": [],
+  "activity": [
+    {
+      "id": "aedd67a707ae78fa",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:12:28.856Z",
+      "type": "cuenta",
+      "text": "Creaste tu cuenta en PetZen."
+    },
+    {
+      "id": "5e792e80f1571554",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:15:58.220Z",
+      "type": "mascota",
+      "text": "Registraste a Lola."
+    },
+    {
+      "id": "04c08356ac3a32dd",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:16:27.244Z",
+      "type": "comedero",
+      "text": "Pediste dispensar 54 g desde la app."
+    },
+    {
+      "id": "4fff5a3b092a9165",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:16:37.408Z",
+      "type": "comedero",
+      "text": "Pediste dispensar 54 g desde la app."
+    },
+    {
+      "id": "dab7e6d91df59021",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:17:46.015Z",
+      "type": "cita",
+      "text": "Agendaste Ecografía abdominal para Lola: 2026-11-20 a las 10:30 (CITA-85C2E7)."
+    },
+    {
+      "id": "5e262fbc11135fdb",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:18:31.694Z",
+      "type": "comedero",
+      "text": "Creaste un horario de comida para Lola a las 07:30 (82 g)."
+    },
+    {
+      "id": "db64dd8e02f65f83",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:18:31.708Z",
+      "type": "comedero",
+      "text": "Creaste un horario de comida para Lola a las 18:30 (82 g)."
+    },
+    {
+      "id": "4184a6714fe26701",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:18:48.985Z",
+      "type": "comedero",
+      "text": "Creaste un horario de comida para Lola a las 00:22 (82 g)."
+    },
+    {
+      "id": "8840cb9d4e64f1b0",
+      "userId": "ba8ec2f7fc803bbb",
+      "at": "2026-11-12T05:19:59.041Z",
+      "type": "pedido",
+      "text": "Pagaste el pedido PED-440765 en PetZen Oficial por 99.000 COP."
+    }
+  ]
+}

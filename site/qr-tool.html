@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Generador de QR — PetZen</title>
+<style>body{font-family:system-ui,sans-serif;background:#F4EFE3;color:#1B2230;display:flex;justify-content:center;padding:30px}main{background:#fff;border-radius:22px;padding:28px;max-width:460px;width:100%;box-shadow:0 10px 30px rgba(8,27,51,.12)}h1{font-size:22px;color:#0B3162;margin:0 0 6px}p{color:#5E6676;font-size:14px}input{width:100%;padding:12px;border:1.5px solid #E4E0D3;border-radius:12px;font-size:15px;margin:10px 0}select,button{padding:11px 18px;border-radius:99px;border:none;font-weight:700;font-size:14px;cursor:pointer}button{background:#D89D59;color:#081B33}canvas{width:100%;max-width:340px;display:block;margin:16px auto;border-radius:10px;border:1px solid #E4E0D3}.row{display:flex;gap:10px;flex-wrap:wrap}</style></head>
+<body><main><h1>🐾 Generador de QR de PetZen</h1><p>Escribe cualquier dirección (la de tu página o la de tu app) y descarga el QR en PNG para el brochure.</p>
+<input id="u" value="https://www.petzen.com" spellcheck="false">
+<div class="row"><select id="c"><option value="#0B3162">Azul PetZen</option><option value="#000000">Negro</option></select><button id="d">⬇ Descargar PNG</button></div>
+<canvas id="q"></canvas><p id="e" style="color:#B5533F"></p>
+<script src="js/qr.js"></script><script>
+const u=document.getElementById('u'),c=document.getElementById('c'),q=document.getElementById('q'),e=document.getElementById('e');
+function draw(){try{e.textContent='';QR.toCanvas(q,u.value.trim()||' ',{scale:16,margin:4,dark:c.value})}catch(x){e.textContent=x.message}}
+u.oninput=c.onchange=draw;draw();
+document.getElementById('d').onclick=()=>{const a=document.createElement('a');a.download='qr-petzen.png';a.href=q.toDataURL('image/png');a.click()};
+</script></main></body></html>
